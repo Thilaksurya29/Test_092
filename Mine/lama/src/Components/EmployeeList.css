@@ -1,0 +1,37 @@
+/* Apply styles to the table */
+table {
+    border-collapse: collapse; /* Collapse table borders */
+    width: 100%; /* Make the table take up 100% of its container's width */
+    font-family: Arial, sans-serif; /* Specify a font family */
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+/* Style table headers (th) */
+th {
+    background-color: #f2f2f2; /* Background color for header cells */
+    text-align: left; /* Align text to the left in header cells */
+    padding: 8px; /* Add padding inside header cells */
+    border-bottom: 2px solid #ddd; /* Add a bottom border to header cells */
+}
+
+/* Style table rows (even and odd) */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Background color for even rows */
+}
+
+/* Style table data cells (td) */
+td {
+    padding: 8px; /* Add padding inside data cells */
+    border-bottom: 1px solid #ddd; /* Add a bottom border to data cells */
+}
+
+/* Style hover effect for rows */
+tr:hover {
+    background-color: #ddd; /* Background color on hover */
+}

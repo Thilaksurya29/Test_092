@@ -1,0 +1,48 @@
+/* Reset default margin and padding */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+.header {
+    display: flex;
+    justify-content: space-between; /* Align elements at the start and end */
+    align-items: center; /* Center vertically */
+    background-color: #333; /* Change the background color as needed */
+    padding: 10px 20px; /* Add spacing around the header content */
+}
+
+/* Style the logo */
+.logo {
+    margin: 0;
+    color: #fff; /* Change the text color as needed */
+    text-decoration: none;
+}
+
+/* Style the navigation bar */
+.navbar {
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+/* Style the navigation items */
+.main-nav {
+    list-style-type: none;
+    display: flex;
+    gap: 20px; /* Add spacing between navigation items */
+}
+
+.main-nav li {
+    margin: 0;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #fff; /* Change the text color as needed */
+}
+
+/* Style hover effect */
+.main-nav a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
